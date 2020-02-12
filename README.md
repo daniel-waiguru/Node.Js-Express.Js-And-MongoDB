@@ -30,3 +30,9 @@ server.listen(4000, ()=>{
 ### Express.js server-side framework
 Express.js is flexible node.js web application framework
  to install express.js use the command ```npm express -save
+
+### Using EJS templating engine
+EJS abbreviates Embended JavaScript templating
+## To installing EJS engine
+type the following command in your terminal
+```npm install ejs
