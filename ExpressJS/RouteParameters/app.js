@@ -6,7 +6,7 @@ An example to handle route parameters of codeproject site for Q&A
 https://www.codeproject.com/Articles/43438/Connect-C-to-MySQL
 */
 
-app.route('/Articles/:id/:title/', (req, res)=>{
+app.get('/Articles/:id/:title/', (req, res)=>{
     res.send('This route handles all the questions');
 });
 
@@ -14,7 +14,7 @@ app.route('/Articles/:id/:title/', (req, res)=>{
 /*
 Handles code project members profiles
 */
-app.route('/Members/:username', (req, res)=>{
+app.get('/Members/:username', (req, res)=>{
     let user = req.params.username;
     res.send('This route handles codeproject members profile');
 });
