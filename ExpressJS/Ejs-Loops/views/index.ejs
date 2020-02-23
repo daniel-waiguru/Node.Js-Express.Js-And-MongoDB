@@ -1,0 +1,10 @@
+<h1>MY FRIEND'S BIRTHDAY LIST</h1>
+
+<% birthdays.forEach((birthday)=>{ %>
+    <ul>
+        <li><%= birthday['name'] %></li>
+        <li><%= birthday['date'] %></li>
+        <li><%= birthday['month'] %></li>
+        <li><%= birthday['year'] %></li>
+    </ul>
+<% }) %>
