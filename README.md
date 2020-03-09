@@ -1,5 +1,7 @@
 # Node.Js-Express.Js-And-MongoDB
 Learning Backend Web development with Node.Js, Express.Js Server side framework and MongoDB
+node is a runtime that allows us to write all of our serveride tasks.
+express is a framework taht makes node servers much easier to build an maintain.
 
 Node.js is a server side runtime environment built on Google Chrome's javascript Engine V8(which is built on C++)
 ## Features of Node.js
